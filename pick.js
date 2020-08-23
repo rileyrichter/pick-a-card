@@ -3,6 +3,9 @@ $(document).ready(function () {
     data
   ) {
     const suit = data.cards[0].suit;
+    const value = data.cards[0].value;
+    console.log(suit);
+    console.log(value);
     console.log(suit);
   });
 });
