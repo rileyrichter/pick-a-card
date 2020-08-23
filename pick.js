@@ -4,8 +4,9 @@ $(document).ready(function () {
   ) {
     const suit = data.cards[0].suit;
     const value = data.cards[0].value;
+    const image = data.cards[0].image;
     console.log(suit);
     console.log(value);
-    console.log(suit);
+    console.log(image);
   });
 });
