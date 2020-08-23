@@ -8,5 +8,8 @@ $(document).ready(function () {
     console.log(suit);
     console.log(value);
     console.log(image);
+    document.getElementById("suit").innerHTML = suit;
+    document.getElementById("value").innerHTML = value;
+    document.getElementById("image").src = image;
   });
 });
