@@ -17,3 +17,16 @@ Scenario: A customer fills out our sign-up form
     Then the following step happens
     Then the user sees x
 ```
+
+You can [learn more about gherkin](https://cucumber.io/docs/gherkin/reference/) at cucumber.io.
+
+You can [learn more about getting rid of your master branch](https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx) here.
+
+The code I specifically used from this article is:
+
+```
+git branch -m master main
+git push -u origin main
+```
+
+On top of that, it is always helplful to [donate to Black Lives Matter](https://blacklivesmatter.com).
