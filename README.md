@@ -13,7 +13,7 @@ It's using the [Deck of Cards API](http://deckofcardsapi.com/).
 Here's a gherkin example that I referenced in the video when documenting automations.
 
 ```gherkin
-# This Zap has three step
+# This Zap has three steps
 Scenario: A customer fills out our sign-up form
     When the form is submitted
     Then the Zap fires and X happens
