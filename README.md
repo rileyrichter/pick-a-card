@@ -28,7 +28,7 @@ You can [learn more about getting rid of your master branch](https://www.hanselm
 
 The code I specifically used from this article is:
 
-```
+```sh
 git branch -m master main
 git push -u origin main
 ```
